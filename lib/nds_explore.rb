@@ -20,6 +20,8 @@ def print_first_directors_movie_titles
 end
 
 
+
+
 # pp directors_database[0]
 #   #AoH AoH 
 #   directors_database[0][:movies] # now we're pointing at the array we want to iterate through
