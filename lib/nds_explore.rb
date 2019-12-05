@@ -11,7 +11,7 @@ end
 
 
 
-
+# FIRST SUCCESSFUL SOLUTION!!! I THINK WE CAN SLIM IT DOWN THOUGH, LET'S NOT RETURN AN ARRAY, LETS GO STRAIGHT TO "PUTS MOVIE TITLES"
 def print_first_directors_movie_titles
   movie_index = 0 
   all_films = []
