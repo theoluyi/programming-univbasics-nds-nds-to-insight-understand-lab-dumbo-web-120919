@@ -8,7 +8,7 @@ def pretty_print_nds(nds)
   pp directors_database
 end
 
-
+# STREAMLINED SECOND SUCCESSFUL SOLUTION!!!
 def print_first_directors_movie_titles
   movie_index = 0 
   
