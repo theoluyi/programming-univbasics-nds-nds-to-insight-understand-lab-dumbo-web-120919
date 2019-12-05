@@ -20,8 +20,8 @@ def print_first_directors_movie_titles
 end
 
 
-pp directors_database[0]
-  #AoH AoH 
-  directors_database[0][:movies] # now we're pointing at the array we want to iterate through
-  directors_database[0][:movies][movie_index][:title] # this is what we add to the collection we return, movie_index is our incrementor. 
-  # while movie_index < directors_database[0][:movies].count do 
+# pp directors_database[0]
+#   #AoH AoH 
+#   directors_database[0][:movies] # now we're pointing at the array we want to iterate through
+#   directors_database[0][:movies][movie_index][:title] # this is what we add to the collection we return, movie_index is our incrementor. 
+#   # while movie_index < directors_database[0][:movies].count do 
