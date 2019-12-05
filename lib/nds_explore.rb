@@ -9,21 +9,30 @@ def pretty_print_nds(nds)
 end
 
 
+def print_first_directors_movie_titles
+  movie_index = 0 
+  
+  while movie_index < directors_database[0][:movies].count do 
+    puts directors_database[0][:movies][movie_index][:title]
+    movie_index += 1
+  end
+end
+
 
 
 # FIRST SUCCESSFUL SOLUTION!!! I THINK WE CAN SLIM IT DOWN THOUGH, LET'S NOT RETURN AN ARRAY, LETS GO STRAIGHT TO "PUTS MOVIE TITLES"
-def print_first_directors_movie_titles
-  movie_index = 0 
-  all_films = []
+# def print_first_directors_movie_titles
+#   movie_index = 0 
+#   all_films = []
   
-  while movie_index < directors_database[0][:movies].count do 
-    all_films << directors_database[0][:movies][movie_index][:title]
-    movie_index += 1
-  end
-  all_films.each do |i|
-    puts i 
-  end 
-end
+#   while movie_index < directors_database[0][:movies].count do 
+#     all_films << directors_database[0][:movies][movie_index][:title]
+#     movie_index += 1
+#   end
+#   all_films.each do |i|
+#     puts i 
+#   end 
+# end
 
 
 
