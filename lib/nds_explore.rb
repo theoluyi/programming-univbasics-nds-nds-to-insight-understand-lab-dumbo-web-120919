@@ -20,8 +20,8 @@ def print_first_directors_movie_titles
     all_films << directors_database[0][:movies][movie_index][:title]
     movie_index += 1
   end
-  all_films.each do
-    p
+  all_films.each do |i|
+    p i 
   end 
 end
 
