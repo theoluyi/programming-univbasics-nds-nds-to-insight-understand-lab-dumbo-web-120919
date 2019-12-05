@@ -21,7 +21,7 @@ def print_first_directors_movie_titles
     movie_index += 1
   end
   all_films.each do |i|
-    p i 
+    puts i 
   end 
 end
 
